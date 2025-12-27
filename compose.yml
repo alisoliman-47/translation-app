@@ -5,3 +5,6 @@ services:
       - "8000:8888"
     environment:
       - JUPYTER_TOKEN=token0
+
+    volumes:
+      - ./:/home/asoliman/project/translation-app
